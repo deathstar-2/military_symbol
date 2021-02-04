@@ -1,3 +1,7 @@
 # military_symbol
 
 simple python gui for one way to create military symbols // company level and below
+
+I developed this program to begin learning Python through development.  The goal was to develop a GUI that would provide a user with an output military symbol after the user selects values presented in the form of combobox and entry options.  This GUI would also allow the user to export the symbol as a .png file once created.
+
+the project is divided into three parts, the main .py (app_v4.py), the .py with all the variables (variables.py), and an image library.  
