@@ -229,31 +229,5 @@ main.mainloop()
 
 '''notes below...
 
-def clear img - needs to be reformatted to use a [class].[method] for
-all variable lists so the function isn't pulling a list strictly from
-an imported .py list and it runs more smoothly. with all this in a
-class wrapper of a sort .. or assign a main.[method].  the current style
-banks on the imported list to be recognized within functions.  i'm not
-sure this is the best way or even appropriate use of python grammar.
-
-i was using the below instantiation of images to PhotoImage but decided
-to remove this because you can't open an image associated with PhotoImage
-and the only time I really need this was upon initialization of the app
-prior to creating images so I left the imagery_10 in this loop thing in the code.
-for x in range(len(imagery_11)):
-    imagery_11[x]=tk.PhotoImage(file=imagery_11[x])
-for x in range(len(imagery_14)):
-    imagery_14[x]=tk.PhotoImage(file=imagery_14[x])
-
-i was using the below code to save through numpy array reformatting thingy.
-i switched to using load and then save... not sure i need to load.  need
-to read more on that process. also removed numpy import.
-    output_img=Image.open('img/icon_product.png')
-    output_img=numpy.array(output_img)
-    output_img=Image.fromarray(output_img)    
-    output_img.save(file)
-
-
-don't forget to use try/except for error passing or checking
 
 '''
